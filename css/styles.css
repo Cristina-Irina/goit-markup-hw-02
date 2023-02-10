@@ -1,0 +1,193 @@
+:root {
+  --black-text-color: #212121;
+  --gray-text-color: #757575;
+  --white-color: #ffffff;
+  --black-bg-color: #2f303a;
+  --gray-bg-color: #f5f4fa;
+  --highlight-color: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--white-color);
+  color: var(--black-text-color);
+  letter-spacing: 3%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list-nostyle {
+  list-style: none;
+}
+
+.active:hover,
+.active:focus {
+  color: var(--highlight-color);
+}
+
+/*  Header Logo */
+
+.logo-up {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--black-text-color);
+}
+.logo-up::before {
+  content: 'Web';
+  color: var(--highlight-color);
+}
+
+/* Header navigation menu*/
+
+.nav-menu {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  color: var(--black-text-color);
+}
+.contact-up {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  color: var(--gray-text-color);
+}
+
+/* Footer  */
+
+.footer {
+  background: var(--black-bg-color);
+}
+
+.logo-down {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--white-color);
+}
+
+.logo-down::before {
+  content: 'Web';
+  color: var(--highlight-color);
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--white-color);
+}
+
+.footer-contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Hero section*/
+
+.hero {
+  background: var(--black-bg-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.hero-button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background: var(--highlight-color);
+}
+
+/* Our strengths section */
+
+.strengths-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.strengths-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--gray-text-color);
+}
+
+/* What we do section */
+
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Our Team section  */
+
+.team-section {
+  background: var(--gray-bg-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.role {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--gray-text-color);
+}
+
+/* Portfolio */
+
+.portfolio-button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background: var(--gray-bg-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background: var(--highlight-color);
+  color: var(--white-color);
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--gray-text-color);
+}
