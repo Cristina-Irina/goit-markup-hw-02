@@ -12,6 +12,8 @@ body {
   background: var(--white-color);
   color: var(--black-text-color);
   letter-spacing: 3%;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .link {
@@ -46,16 +48,17 @@ body {
 
 .nav-menu {
   font-weight: 500;
-  font-size: 14px;
   letter-spacing: 0.02em;
-  line-height: 1.14;
   color: var(--black-text-color);
 }
+
+.active-tab {
+  color: var(--highlight-color);
+}
+
 .contact-up {
   font-weight: 500;
-  font-size: 14px;
   letter-spacing: 0.02em;
-  line-height: 1.14;
   color: var(--gray-text-color);
 }
 
@@ -70,7 +73,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   color: var(--white-color);
 }
 
@@ -81,15 +84,11 @@ body {
 
 .address {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
   color: var(--white-color);
 }
 
 .footer-contact {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -98,6 +97,7 @@ body {
 .hero {
   background: var(--black-bg-color);
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -124,13 +124,11 @@ body {
 
 .strengths-title {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .strengths-text {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--gray-text-color);
 }
@@ -149,6 +147,7 @@ body {
 .team-section {
   background: var(--gray-bg-color);
 }
+
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -174,6 +173,10 @@ body {
   background: var(--gray-bg-color);
 }
 
+.filter {
+  background: var(--highlight-color);
+  color: var(--white-color);
+}
 .portfolio-button:hover,
 .portfolio-button:focus {
   background: var(--highlight-color);
