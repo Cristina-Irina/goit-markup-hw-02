@@ -5,10 +5,12 @@
   --black-bg-color: #2f303a;
   --gray-bg-color: #f5f4fa;
   --highlight-color: #2196f3;
+  --text-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--text-font);
   background: var(--white-color);
   color: var(--black-text-color);
   letter-spacing: 3%;
@@ -32,9 +34,9 @@ body {
 /*  Header Logo */
 
 .logo-up {
-  font-family: 'Raleway';
+  font-family: var(--logo-font);
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   color: var(--black-text-color);
@@ -69,9 +71,9 @@ body {
 }
 
 .logo-down {
-  font-family: 'Raleway';
+  font-family: var(--logo-font);
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   color: var(--white-color);
@@ -109,7 +111,7 @@ body {
 }
 .hero-button {
   cursor: pointer;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -123,7 +125,7 @@ body {
 /* Our strengths section */
 
 .strengths-title {
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -136,7 +138,7 @@ body {
 /* What we do section */
 
 .subtitle {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -183,7 +185,7 @@ body {
   color: var(--white-color);
 }
 .project-title {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
